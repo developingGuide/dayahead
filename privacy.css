@@ -1,0 +1,11 @@
+*{
+  font-family: Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 800px) {
+  body{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
