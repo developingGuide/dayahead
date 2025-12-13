@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta-name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DayAhead</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-inner">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="logo.png" alt="">
+      </div>
+
+      <!-- Navigation links -->
+      <ul class="nav-links">
+        <li><a href="#how-it-works">How it works</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <button id="nav-button" class="button" onclick="goToStore()">
+          View in App Store!
+        </button>
+      </ul>
+
+    </div>
+  </nav>
+  
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Follow Wind-down and Morning Routine Easily</h1>
+        <p>A simple app that helps you plan at night, sleep peacefully, and wake up with a clear morning routine.</p>
+        <button class="button" onclick="goToStore()">
+          View in App Store!
+        </button>
+      </div>
+
+      <!-- Video placeholder -->
+      <div class="hero-video">
+        <video src="Video of process.mp4" loop autoplay></video>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="section" id="features">
+    <h2>Features</h2>
+
+    <div class="features-grid">
+
+      <div class="feature-card">
+        <div class="feature-icon">☀️</div>
+        <h3>Daily routine builder</h3>
+        <p>Create simple routines that guide your day from start to finish.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">⏰</div>
+        <h3>Reminders</h3>
+        <p>Gentle reminders that keep you on track without stressing you out.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">📊</div>
+        <h3>Progress dashboard</h3>
+        <p>See your consistency and growth over time at a glance.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🌿</div>
+        <h3>Distraction-free design</h3>
+        <p>A calm interface that helps you focus on what actually matters.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🧘</div>
+        <h3>Routines</h3>
+        <p>Morning routines are included so that they are ready right when you wake up.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">📅</div>
+        <h3>Weekly Planner</h3>
+        <p>Weekly planners are avilable on the web to make wind-down easier and quicker.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="how-it-works">
+    <h2>How it works</h2>
+
+    <div class="step">
+      <img src="PlanDay.jpg" alt="Step 1">
+      <div>
+        <h3>1. Plan your next day</h3>
+        <p>Every night, take a minute to layout your next morning so you're not scrambling the next day.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <img src="sleeping.jpg" alt="Step 2">
+      <div>
+        <h3>2. Sleep with your phone off</h3>
+        <p>End the day calm, head to bed knowing what you are going to do tomorrow.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <img src="goodmorning.jpg" alt="Step 3">
+      <div>
+        <h3>3. Wake up</h3>
+        <p>Wake up to your routines ready for you! Choose between different routines available.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <img src="gratitude.jpg" alt="Step 4">
+      <div>
+        <h3>4. Morning routine</h3>
+        <p>Take your time to perform the routine.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <img src="homepage.jpg" alt="Step 5">
+      <div>
+        <h3>5. Your plan is ready</h3>
+        <p>Start the day with clarity, knowing exactly what’s next.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="section" id="social-proof">
+    <h2>What people say</h2>
+
+    <div class="testimonial">
+      <p class="quote">
+        “This app helped me slow down at night and stop waking up stressed. 
+        I actually know what I’m doing when I wake up now.”
+      </p>
+
+      <div class="author">
+        <strong>Alex</strong>
+        <span>Routine App user</span>
+      </div>
+    </div>
+  </section> -->
+
+  <section class="section" id="pricing">
+    <h2>Pricing</h2>
+
+    <div class="pricing-table">
+
+      <!-- Free Plan -->
+      <div class="pricing-column">
+        <h3>Free</h3>
+
+        <ul class="pricing-features">
+          <li>App Features</li>
+          <li>Full Week Data View</li>
+          <li>Streaks</li>
+        </ul>
+
+        <button 
+          onclick="goToStore()"
+          class="button"
+        >
+          Get the app
+      </button>
+      </div>
+
+      <!-- Pro Plan -->
+      <div class="pricing-column highlighted">
+        <h3>Pro (FREE for now)</h3>
+
+        <ul class="pricing-features">
+          <li>Everything in Free</li>
+          <li>Prefill Planner from Previous Days</li>
+          <li>Weekly Planning on the Web (Coming soon!)</li>
+          <li>Full Data View on the Web (Coming soon!)</li>
+          <li>Widgets (Not yet...)</li>
+        </ul>
+
+        <button 
+          onclick="goToStore()"
+          class="button"
+        >
+          Get the app
+      </button>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Wilson</p>
+  </footer>
+
+
+
+  <script src="index.js"></script>
+</body>
+</html>
